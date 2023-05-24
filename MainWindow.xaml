@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="/LINE_ALBUM_230524.jpg"/>
+        </Grid.Background>
+        <MediaElement x:Name="MedShow" HorizontalAlignment="Left" Height="342" Margin="42,42,0,0" VerticalAlignment="Top" Width="713"/>
+        <TextBox x:Name="txtFilePath" HorizontalAlignment="Left" Margin="42,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="587" Height="26"/>
+        <Button x:Name="btnOpenFile" Content="開啟檔案" HorizontalAlignment="Left" Margin="651,4,0,0" VerticalAlignment="Top" Height="38" Width="75" Background="#FFFFEA00"/>
+        <Button x:Name="btnPlay" Content="播放" HorizontalAlignment="Left" Margin="86,387,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.071,0.715" Height="38" Width="71" Background="#FF93DC79"/>
+        <Button x:Name="btnPause" Content="暫停" HorizontalAlignment="Left" Margin="197,387,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.071,0.715" Height="38" Width="71" Background="#FF88D8DA"/>
+        <Button x:Name="btnStop" Content="終止" HorizontalAlignment="Left" Margin="302,387,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.071,0.715" Height="38" Width="70" Background="#FFD85050"/>
+        <Button x:Name="btnExit" Content="離開" HorizontalAlignment="Left" Margin="400,386,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.071,0.715" Height="39" Width="75"/>
+
     </Grid>
 </Window>
+    
