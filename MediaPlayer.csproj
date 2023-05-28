@@ -97,5 +97,8 @@
   <ItemGroup>
     <Resource Include="LINE_ALBUM_230524.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AC8B1D4F-6545-4762-9F10-64627E5E3BBA_1_201_a.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
